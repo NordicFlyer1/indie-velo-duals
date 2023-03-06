@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "auto-close-tag.disableOnLanguage": [
+    "javascript",
+    "typescript"
+  ],
+  "typescript.reportStyleChecksAsWarnings": false,
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".nuxt/types/*.d.ts": true
+  }
+}
+
