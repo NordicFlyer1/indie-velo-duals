@@ -7,8 +7,8 @@
       <UtilDropZone v-if="!loaded && !loading" @files-dropped="onFileDropped" />
       <LoadingOverlay v-if="loading" />
     </div>
-    <div v-if="loaded" class="w-full flex flex-row flex-wrap">
-      <aside class="w-1/5 border-r bg-gray-100 border-gray-400/50 h-screen">
+    <div v-if="loaded" class="w-full flex flex-row flex-wrap h-screen">
+      <aside class="w-1/5 border-r bg-gray-100 border-gray-400/50">
         <div class="sticky top-0 w-full">
           <SidebarUserProfile />
           <SidebarSectionDivider />
@@ -34,6 +34,7 @@
         </div>
       </main>
     </div>
+    <SiteFooter />
   </div>
 </template>
 <script setup lang="ts">
